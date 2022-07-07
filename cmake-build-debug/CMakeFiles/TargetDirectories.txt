@@ -1,0 +1,3 @@
+C:/Users/Hyperbook/Cpp/memory-2022-263696_on_vectors/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Hyperbook/Cpp/memory-2022-263696_on_vectors/cmake-build-debug/CMakeFiles/memory_onV.dir
+C:/Users/Hyperbook/Cpp/memory-2022-263696_on_vectors/cmake-build-debug/CMakeFiles/rebuild_cache.dir

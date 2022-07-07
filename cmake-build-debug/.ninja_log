@@ -1,0 +1,9 @@
+# ninja log v5
+34	964	6788131407077893	CMakeFiles/memory_onV.dir/GameScreen.cpp.obj	cbe1f603f0fc55d9
+3	609	6788809890671888	CMakeFiles/memory_onV.dir/main.cpp.obj	4aa6d9e44bed92ef
+30	1073	6788131408171704	CMakeFiles/memory_onV.dir/MainMenu.cpp.obj	bb6a2b90be1d2ef
+798	1310	6788809897651887	memory_onV.exe	774efe350c8cc5d7
+25	1315	6788173638005037	CMakeFiles/memory_onV.dir/GameCtrl.cpp.obj	2345253004e23e47
+17	597	6788809890571856	CMakeFiles/memory_onV.dir/Card.cpp.obj	894f730758b1e1af
+14	798	6788809892582308	CMakeFiles/memory_onV.dir/Screen.cpp.obj	66a295b0728b51e7
+2	398	6788817968605836	build.ninja	ee65792dc232408f
