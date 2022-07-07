@@ -94,7 +94,8 @@
 			[
 				0,
 				2,
-				4
+				4,
+				6
 			]
 		}
 	],
@@ -191,7 +192,8 @@
 			[
 				0,
 				2,
-				4
+				4,
+				6
 			]
 		},
 		{
@@ -206,7 +208,8 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5
+				5,
+				7
 			]
 		}
 	],
@@ -243,6 +246,17 @@
 		{
 			"backtrace" : 1,
 			"path" : "SFMLScreen.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "GameCtrl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "GameCtrl.h",
 			"sourceGroupIndex" : 2
 		}
 	],

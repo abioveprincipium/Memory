@@ -3,7 +3,9 @@
 #include <SFML/Graphics.hpp>
 #include "Card.h"
 #include "SFMLScreen.h"
-
+void intro(){
+    std::cout<<"AJG XXXX96"<<std::endl;
+}
 
 int main(){
 

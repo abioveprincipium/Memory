@@ -37,5 +37,5 @@ find_package(SFML 2 COMPONENTS graphics audio REQUIRED)
 
 
 add_compile_options(-Wall -Wextra)
-add_executable(memory_onV main.cpp  hp.ttf Card.cpp Card.h SFMLScreen.cpp SFMLScreen.h)
+add_executable(memory_onV main.cpp  hp.ttf Card.cpp Card.h SFMLScreen.cpp SFMLScreen.h GameCtrl.cpp GameCtrl.h)
 target_link_libraries(memory_onV sfml-graphics sfml-audio)
