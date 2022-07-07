@@ -76,6 +76,14 @@ build CMakeFiles/memory_onV.dir/Card.cpp.obj: CXX_COMPILER__memory_onV_Debug C$:
   OBJECT_DIR = CMakeFiles\memory_onV.dir
   OBJECT_FILE_DIR = CMakeFiles\memory_onV.dir
 
+build CMakeFiles/memory_onV.dir/SFMLScreen.cpp.obj: CXX_COMPILER__memory_onV_Debug C$:/Users/Hyperbook/Cpp/memory-2022-263696_on_vectors/SFMLScreen.cpp || cmake_object_order_depends_target_memory_onV
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\memory_onV.dir\SFMLScreen.cpp.obj.d
+  FLAGS = -g -Wall -Wextra -std=gnu++14
+  INCLUDES = -isystem C:/SFML-2.5.1/include
+  OBJECT_DIR = CMakeFiles\memory_onV.dir
+  OBJECT_FILE_DIR = CMakeFiles\memory_onV.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target memory_onV
@@ -84,7 +92,7 @@ build CMakeFiles/memory_onV.dir/Card.cpp.obj: CXX_COMPILER__memory_onV_Debug C$:
 #############################################
 # Link the executable memory_onV.exe
 
-build memory_onV.exe: CXX_EXECUTABLE_LINKER__memory_onV_Debug CMakeFiles/memory_onV.dir/main.cpp.obj CMakeFiles/memory_onV.dir/Card.cpp.obj | C$:/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/SFML-2.5.1/lib/libsfml-audio-s-d.a C$:/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/SFML-2.5.1/lib/libfreetype.a C$:/SFML-2.5.1/lib/libopenal32.a C$:/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/SFML-2.5.1/lib/libvorbisfile.a C$:/SFML-2.5.1/lib/libvorbisenc.a C$:/SFML-2.5.1/lib/libvorbis.a C$:/SFML-2.5.1/lib/libogg.a C$:/SFML-2.5.1/lib/libFLAC.a
+build memory_onV.exe: CXX_EXECUTABLE_LINKER__memory_onV_Debug CMakeFiles/memory_onV.dir/main.cpp.obj CMakeFiles/memory_onV.dir/Card.cpp.obj CMakeFiles/memory_onV.dir/SFMLScreen.cpp.obj | C$:/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/SFML-2.5.1/lib/libsfml-audio-s-d.a C$:/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/SFML-2.5.1/lib/libfreetype.a C$:/SFML-2.5.1/lib/libopenal32.a C$:/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/SFML-2.5.1/lib/libvorbisfile.a C$:/SFML-2.5.1/lib/libvorbisenc.a C$:/SFML-2.5.1/lib/libvorbis.a C$:/SFML-2.5.1/lib/libogg.a C$:/SFML-2.5.1/lib/libFLAC.a
   FLAGS = -g
   LINK_LIBRARIES = C:/SFML-2.5.1/lib/libsfml-graphics-s-d.a  C:/SFML-2.5.1/lib/libsfml-audio-s-d.a  C:/SFML-2.5.1/lib/libsfml-window-s-d.a  -lgdi32  -lOpenGL32  C:/SFML-2.5.1/lib/libfreetype.a  C:/SFML-2.5.1/lib/libopenal32.a  C:/SFML-2.5.1/lib/libsfml-system-s-d.a  -lwinmm  C:/SFML-2.5.1/lib/libvorbisfile.a  C:/SFML-2.5.1/lib/libvorbisenc.a  C:/SFML-2.5.1/lib/libvorbis.a  C:/SFML-2.5.1/lib/libogg.a  C:/SFML-2.5.1/lib/libFLAC.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\memory_onV.dir
