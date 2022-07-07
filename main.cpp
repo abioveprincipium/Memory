@@ -1,12 +1,12 @@
 #include <iostream>
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
-
+#include "Card.h"
 
 
 int main(){
 
-
+    Card karta;
 
     sf::RenderWindow window(sf::VideoMode(1600, 720), "Memory Game");
     window.setFramerateLimit(60);
