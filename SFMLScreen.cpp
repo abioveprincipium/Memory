@@ -30,10 +30,10 @@ void MainMenu::drawScreen(sf::RenderWindow &window){
 GameCtrl::GameCtrl(){
 
     std::vector<sf::Vector2f> positions;
-    for (int i = 0; i < 10; i++) for(int j = 0; j < 5; j++) positions.emplace_back(sf::Vector2f(j,i));
+    for (int i = 0; i < 2; i++) for(int j = 0; j < 5; j++) positions.emplace_back(sf::Vector2f(j,i));
 
     zerowanie();
-    for(int i = 0; i < 25; i++){
+    for(int i = 0; i < 5; i++){
 
         Card one(pary[i].one);
         Card two(pary[i].two);
@@ -71,10 +71,10 @@ void GameCtrl::resetGame(){
     cards.clear();
 
     std::vector<sf::Vector2f> positions;
-    for (int i = 0; i < 10; i++) for(int j = 0; j < 5; j++) positions.emplace_back(sf::Vector2f(j,i));
+    for (int i = 0; i < 2; i++) for(int j = 0; j < 5; j++) positions.emplace_back(sf::Vector2f(j,i));
 
     zerowanie();
-    for(int i = 0; i < 25; i++){
+    for(int i = 0; i < 5; i++){
 
         Card one(pary[i].one);
         Card two(pary[i].two);

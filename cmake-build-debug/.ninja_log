@@ -1,15 +1,14 @@
 # ninja log v5
-5	536	6788848599856918	CMakeFiles/memory_onV.dir/main.cpp.obj	4aa6d9e44bed92ef
+6	558	6788850578758157	CMakeFiles/memory_onV.dir/main.cpp.obj	4aa6d9e44bed92ef
 34	964	6788131407077893	CMakeFiles/memory_onV.dir/GameScreen.cpp.obj	cbe1f603f0fc55d9
-21	744	6788841939373018	CMakeFiles/memory_onV.dir/SFMLScreen.cpp.obj	cc1d2287e9fa08b6
+3	700	6788850580176656	CMakeFiles/memory_onV.dir/SFMLScreen.cpp.obj	cc1d2287e9fa08b6
 30	1073	6788131408171704	CMakeFiles/memory_onV.dir/MainMenu.cpp.obj	bb6a2b90be1d2ef
-536	1046	6788848604913651	memory_onV.exe	2899c5f9f937be61
+700	1181	6788850584951837	memory_onV.exe	67a2787b6cc0138f
 18	493	6788841936860828	CMakeFiles/memory_onV.dir/GameCtrl.cpp.obj	2345253004e23e47
 14	798	6788809892582308	CMakeFiles/memory_onV.dir/Screen.cpp.obj	66a295b0728b51e7
-17	651	6788836829500685	CMakeFiles/memory_onV.dir/Card.cpp.obj	894f730758b1e1af
-2	398	6788850572332035	build.ninja	ee65792dc232408f
-1	207	6788850572332035	build.ninja	ee65792dc232408f
-6	558	6788850578758157	CMakeFiles/memory_onV.dir/main.cpp.obj	4aa6d9e44bed92ef
 9	575	6788850578909601	CMakeFiles/memory_onV.dir/Card.cpp.obj	894f730758b1e1af
-3	700	6788850580176656	CMakeFiles/memory_onV.dir/SFMLScreen.cpp.obj	cc1d2287e9fa08b6
-700	1181	6788850584951837	memory_onV.exe	67a2787b6cc0138f
+1	207	6788852564723465	build.ninja	ee65792dc232408f
+17	606	6788853763050656	CMakeFiles/memory_onV.dir/Card.cpp.obj	894f730758b1e1af
+4	607	6788853763050656	CMakeFiles/memory_onV.dir/main.cpp.obj	4aa6d9e44bed92ef
+14	738	6788853764456949	CMakeFiles/memory_onV.dir/SFMLScreen.cpp.obj	cc1d2287e9fa08b6
+738	1221	6788853769144809	memory_onV.exe	67a2787b6cc0138f

@@ -42,7 +42,7 @@ int main(){
                     if (event.type == sf::Event::MouseButtonPressed && game.cards[i].body.getGlobalBounds().contains(sf::Mouse::getPosition(window).x, sf::Mouse::getPosition(window).y)){
 
                         game.cards[i].isOpen = true;
-                        game.cards[game.cards[i].pairindex].body.setFillColor(sf::Color::Green);
+                       // game.cards[game.cards[i].pairindex].body.setFillColor(sf::Color::Green);
                         game.gameLogic(i);
                     }
                 }
@@ -58,7 +58,7 @@ int main(){
         if (game.active){
             int isWin = 0;
             for(int i = 0; i < game.cards.size(); i++) if (game.cards[i].isOk) isWin++;
-            if (isWin == 48){
+            if (isWin == 8){
                 game.active = false;
                 end.active = true;
                 // game.resetGame();
